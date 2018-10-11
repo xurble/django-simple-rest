@@ -6,7 +6,7 @@ except ImportError:
     sys.exit(1)
 
 
-__version__ = '1.4.1'
+__version__ = '1.4.2'
 __author__ = 'Christopher Roach'
 __email__ = 'croach@freshplum.com'
 __license__ = 'MIT'
@@ -18,7 +18,7 @@ setup(
     author_email=__email__,
     description='A drop dead simple package for creating RESTful APIs on top of Django',
     long_description=open('README.rst').read(),
-    url='https://github.com/freshplum/django-simple-rest',
+    url='https://github.com/xurble/django-simple-rest',
     packages=find_packages(),
     install_requires=['setuptools', 'mimeparse'],
     zip_safe=False,
@@ -32,6 +32,7 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.6',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Software Development :: Libraries :: Python Modules'
